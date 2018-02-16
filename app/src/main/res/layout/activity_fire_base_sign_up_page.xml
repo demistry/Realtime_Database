@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="24dp"
+    tools:context="com.android.firebasesample.FireBaseSignUpPage"
+    >
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save to database"
+        android:onClick="saveToDatabase" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+        android:layout_marginBottom="24dp" />
+
+    <com.android.firebasesample.DaveCustom
+        android:id="@+id/circular_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:circleColor="@color/colorPrimary"
+        app:circleLabel="The big fat boy"
+        app:labelColor="#000"
+        android:layout_marginBottom="24dp"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginBottom="24dp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:onClick="signOut"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        android:onClick="deleteAccount"
+        android:layout_marginBottom="24dp" />
+
+
+</LinearLayout>

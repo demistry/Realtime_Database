@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1035026944060",
+    "firebase_url": "https://djtechfirebase.firebaseio.com",
+    "project_id": "djtechfirebase",
+    "storage_bucket": "djtechfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035026944060:android:83e9c6900e706e14",
+        "android_client_info": {
+          "package_name": "com.android.firebasesample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035026944060-ts0rdk09bleke1816eifhd21su33ejhf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.firebasesample",
+            "certificate_hash": "0c3d3d03899d04ea4a5c25fe9fdb8567bbe6a722"
+          }
+        },
+        {
+          "client_id": "1035026944060-n40pgvk53vaf64hejc7d37lhibmsbiiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4SVzJsLp5p-zI2fk--5Z6hA7KRSZgzJo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035026944060-n40pgvk53vaf64hejc7d37lhibmsbiiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
